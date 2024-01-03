@@ -68,4 +68,7 @@ h1 {
   .introduction img {
     display: none;
   }
+  .introduction .conteudo {
+    font-family: "Playfair  Display", serif;
+  }
 }

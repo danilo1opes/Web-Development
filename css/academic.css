@@ -153,3 +153,9 @@
     margin-bottom: 10px;
   }
 }
+
+@media (max-width: 400px) {
+  .experience .subtitle {
+    font-family: "Playfair  Display", serif;
+  }
+}

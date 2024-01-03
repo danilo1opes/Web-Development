@@ -109,4 +109,7 @@
   .cards {
     grid-template-columns: 1fr;
   }
+  .experience .subtitle {
+    font-family: "Playfair  Display", serif;
+  }
 }
