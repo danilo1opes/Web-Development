@@ -1,0 +1,112 @@
+.experience {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.experience .subtitle {
+  color: #e0e0e0;
+  font-family: "Playfair  Display", serif;
+}
+
+.experience-text {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #525252;
+}
+
+.experience-text strong {
+  color: #141414;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.cards::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#811ecf, #f036e9);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.cards-year {
+  position: absolute;
+  top: 22px;
+  color: #525252;
+  font-size: 0.875rem;
+  left: -100px;
+  width: 80px;
+  text-align: right;
+}
+
+.cards-title {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.cards-text {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
+}
+
+.cards-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-content: start;
+}
+
+.cards-skills li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 5px 20px;
+  color: #141414;
+  font-family: "Fira-sans", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .experience {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experience .subtitle {
+    color: #141414;
+    font-family: "Playfair  Display", serif;
+  }
+  .experience-text {
+    font-size: 1.25rem;
+  }
+  .cards-year {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
