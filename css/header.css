@@ -24,6 +24,14 @@
   transition: 0.2s;
 }
 
+.header-menu a:hover {
+  color: transparent;
+  background: linear-gradient(to right, #811ecf, #f036e9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: background 0.3s ease;
+}
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;
