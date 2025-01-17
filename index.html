@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      document.documentElement.className += ' js';
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -29,7 +32,7 @@
       </nav>
     </header>
 
-    <main class="introduction">
+    <main class="introduction js-scroll">
       <img
         class="perfil"
         src="img/Perfil.jpg"
@@ -37,13 +40,17 @@
         width="360"
         height="520"
       />
-      <div class="conteudo">
+      <div class="conteudo js-scroll">
         <h1>Development<br />front-End &<br />UX/UI Designer</h1>
         <p>Located in Portugal 🦅</p>
       </div>
     </main>
 
-    <section class="experience" id="experience" aria-label="experience">
+    <section
+      class="experience js-scroll"
+      id="experience"
+      aria-label="experience"
+    >
       <h2 class="subtitle">Experience</h2>
       <div>
         <p class="experience-text">
@@ -110,7 +117,7 @@
       </div>
     </section>
 
-    <section class="academic" id="academic" aria-label="academic">
+    <section class="academic js-scroll" id="academic" aria-label="academic">
       <div class="academic-container">
         <h2 class="subtitle">Academic</h2>
         <div>
@@ -181,6 +188,6 @@
       </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
   </body>
 </html>

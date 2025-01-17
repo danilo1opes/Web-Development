@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   color: #141414;
 }
 
@@ -31,6 +31,17 @@ img {
   text-transform: uppercase;
   max-width: 5ch;
   word-break: break-all;
+}
+
+.js .js-scroll {
+  opacity: 0;
+  transition: 0.4s;
+  transform: translate3d(-30px, 0, 0);
+}
+
+.js .js-scroll.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
 
 @media (max-width: 800px) {

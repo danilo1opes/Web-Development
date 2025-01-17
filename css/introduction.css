@@ -17,11 +17,11 @@ h1 {
 }
 
 .introduction .conteudo {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .introduction h1::before {
-  content: "";
+  content: '';
   display: block;
   width: 130px;
   height: 100px;
@@ -34,7 +34,7 @@ h1 {
 .introduction p {
   font-size: 1.5rem;
   color: #525252;
-  font-family: "Fira Sans", serif;
+  font-family: 'Fira Sans', serif;
 }
 
 @media (max-width: 1000px) {
@@ -49,7 +49,7 @@ h1 {
     gap: 40px;
   }
   .introduction .conteudo {
-    font-family: "Playfair  Display", serif;
+    font-family: 'Playfair  Display', serif;
   }
   .introduction h1 {
     font-size: 2rem;
@@ -69,6 +69,6 @@ h1 {
     display: none;
   }
   .introduction .conteudo {
-    font-family: "Playfair  Display", serif;
+    font-family: 'Playfair  Display', serif;
   }
 }
